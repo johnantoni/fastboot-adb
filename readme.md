@@ -31,6 +31,7 @@ lock phone afterwards
     ./fastboot oem lock
 
 reboot and enjoy
+
     ./fastboot reboot-bootloader
 
 ### Factory Images

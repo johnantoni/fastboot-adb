@@ -1,18 +1,18 @@
-## Wipe Phone
+### Wipe Phone
 
     ./fastboot erase system
     ./fastboot erase data
     ./fastboot erase cache
     
-## Lock Phone (wipes data)
+### Lock Phone (wipes data)
 
     ./fastboot oem lock
     
-## Unlock Phone (wipes data)
+### Unlock Phone (wipes data)
 
     ./fastboot oem unlock
     
-## Rebuild Phone (using maguro 4.2.2 as example)
+### Rebuild Phone (using maguro 4.2.2 as example)
 
 unlock phone to gain full permissions
     ./fastboot oem unlock
@@ -30,7 +30,7 @@ lock phone afterwards
 reboot and enjoy
     ./fastboot reboot-bootloader
 
-## Factory Images
+### Factory Images
 
 [https://developers.google.com/android/nexus/images](https://developers.google.com/android/nexus/images)
 

@@ -15,9 +15,11 @@
 ### Rebuild Phone (using maguro 4.2.2 as example)
 
 unlock phone to gain full permissions
+
     ./fastboot oem unlock
     
 flash bootloader, reboot, radio baseband, reboot, install new 4.2.2 o/s
+
     ./fastboot flash bootloader bootloader-maguro-primelc03.img
     ./fastboot reboot-bootloader
     ./fastboot flash radio radio-maguro-i9250xxlj1.img
@@ -25,6 +27,7 @@ flash bootloader, reboot, radio baseband, reboot, install new 4.2.2 o/s
     ./fastboot -w update image-yakju-jdq39.zip
 
 lock phone afterwards
+
     ./fastboot oem lock
 
 reboot and enjoy

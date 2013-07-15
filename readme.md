@@ -38,3 +38,6 @@ reboot and enjoy
 
 [https://developers.google.com/android/nexus/images](https://developers.google.com/android/nexus/images)
 
+### Notes
+
+Galaxy Nexus from Wind runs on "yakju" for Galaxy Nexus "maguro" (GSM/HSPA+). Download JDQ39 build 4.2.2

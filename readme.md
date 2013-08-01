@@ -38,16 +38,17 @@ reboot and enjoy
 
 ## Tablet (nexus 7)
 
-    fastboot oem unlock
-    fastboot erase boot
-    fastboot erase cache
-    fastboot erase recovery
-    fastboot erase system
-    fastboot erase userdata
-    fastboot flash bootloader bootloader-grouper-4.23.img
-    fastboot reboot-bootloader
-    sleep 10
-    fastboot -w update image-nakasi-jwr66v.zip
+    ./fastboot oem unlock
+    ./fastboot erase boot
+    ./fastboot erase cache
+    ./fastboot erase recovery
+    ./fastboot erase system
+    ./fastboot erase userdata
+    ./fastboot flash bootloader bootloader-grouper-4.23.img
+    ./fastboot reboot-bootloader 
+    ./sleep 10
+    ./fastboot -w update image-nakasi-jwr66v.zip
+    ./fastboot oem lock
 
 ### Factory Images
 

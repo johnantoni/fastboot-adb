@@ -50,6 +50,8 @@ reboot and enjoy
     ./fastboot -w update image-nakasi-jwr66v.zip
     ./fastboot oem lock
 
+Had problems updating the bootloader for the nexus 7 2012 wifi edition, verified bootloader 4.23 in /bootloader dir
+
 ### Factory Images
 
 [https://developers.google.com/android/nexus/images](https://developers.google.com/android/nexus/images)
